@@ -2,7 +2,7 @@ import React from 'react';
 
 const TaskItem = ({ task, onToggleComplete, onDelete }) => {
   return (
-    <div classNameName={`task-item ${task.completed ? 'completed' : ''}`}>
+    <div className={`task-item ${task.completed ? 'completed' : ''}`}>
       <input
         type="checkbox"
         checked={task.completed}
