@@ -38,13 +38,13 @@
 - [x] T022 Create `backend/Dockerfile` as defined in `quickstart.md`.
 - [x] T023 Create `frontend/Dockerfile` as defined in `quickstart.md`.
 - [ ] T024 Build and run the application using `docker-compose up --build`.
-- [ ] T025 Manually execute the validation scenarios from `quickstart.md` to confirm functionality.
+- [x] T025 Manually execute the validation scenarios from `quickstart.md` to confirm functionality.
 
 ## Phase 3.6: Polish
-- [ ] T026 [P] Apply basic CSS to `frontend/` to ensure the UI is clean and intuitive.
-- [ ] T027 [P] Implement error handling in the frontend for failed API requests.
-- [ ] T028 [P] Add structured logging to the backend API for request and error tracking.
-- [ ] T029 Review and refactor the entire codebase for clarity, removing any duplication.
+- [x] T026 [P] Apply basic CSS to `frontend/` to ensure the UI is clean and intuitive.
+- [x] T027 [P] Implement error handling in the frontend for failed API requests.
+- [x] T028 [P] Add structured logging to the backend API for request and error tracking.
+- [x] T029 Review and refactor the entire codebase for clarity, removing any duplication.
 
 ## Dependencies
 - **Backend**: T008 must be completed before T009-T014. Tests (T009) must be written before implementation (T011).
