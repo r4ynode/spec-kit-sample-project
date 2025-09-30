@@ -43,5 +43,6 @@ export const deleteTask = async (id) => {
   if (!response.ok) {
     throw new Error('Failed to delete task');
   }
-  return response.json();
+  // No content expected for 204 No Content
+  return;
 };
